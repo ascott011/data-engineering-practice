@@ -1,4 +1,5 @@
 import requests
+import os
 
 download_uris = [
     "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2018_Q4.zip",
@@ -11,8 +12,13 @@ download_uris = [
 ]
 
 
+
 def main():
-    # your code here
+    # download the files
+    # using python, check if the folder exits and create a new directory called "downloads"
+    # check for validity of urls before downloading
+    # extract csv file from zip
+    # rename csv file to just file name without path
     pass
 
 
